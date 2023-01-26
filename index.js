@@ -19,7 +19,7 @@ app.use(function (req, res, next) {
     next();
 });
 
-const PORT = process.env.port || 10000
+const PORT = process.env.PORT || 10000
 
 app.get("/home", (req, res) => {
     res.send("<h1>home api</h1>")
